@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #dfeef0;
+
+}
+nav{
+    height: 80px;
+    width: 100%;
+    background: #4d6d91;
+}
+label.logo{
+
+font-size: 35px;
+float: left;
+font-weight: bold;
+color: white;
+padding: 0 50px;
+line-height: 80px;
+}
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+nav a,span.hi-user{
+    color: white;
+    font-size: 18px;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    padding: 7px 10px;
+    border-radius: 3px;
+
+}
+nav a.active,a:hover{
+    border: 1px solid white;
+}
+.container{
+    width: 450px;
+    margin: 50px auto;
+}
+
+.login,
+.signup{
+    width: 50%;
+    background: white;
+    float: left;
+    height: 60px;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+
+.login-form,
+.signup-form,
+.addfood-form{
+    background: white;
+    box-sizing: border-box;
+    padding: 20px;
+    clear: both;
+    width: 100%;
+}
+/*.signup-form{
+    background: white;
+    box-sizing: border-box;
+    padding: 20px;
+    clear: both;
+    width: 100%;
+}*/
+.usertype-box,
+.l-usertype-box,
+.foodtype-box{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    
+}
+.customer,
+.l-customer,
+.veg{
+    width: 50%;
+    background: white;
+    float: left;
+    height: 60px;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    line-height: 60px; 
+    
+
+}
+.restaurant,
+.l-restaurant,
+.nveg{
+    width: 50%;
+    background: white;
+    float: left;
+    height: 60px;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    line-height: 60px; 
+
+}
+.customer-signup,
+.customer-login,
+.veg-add{
+   
+    clear: both;
+    width: 100%;
+    height: 40%;
+
+}
+.restaurant-signup,
+.restaurant-login,
+.nveg-add{
+    
+    clear: both;
+    width: 100%;
+    height: 30%;
+
+}
+
+span.food-preference{
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    color: #3e3e40;
+    outline: none;
+    text-decoration: none;
+
+}
+.input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 25px;
+    border: 2px solid #e9eaea;
+    color: #3e3e40;
+    outline: none;
+    transition: all 0.5s ease;
+}
+.input:focus{
+    border: 2px solid #74a1d4;
+}
+.btn{
+    width: 100%;
+    background: #74a1d4;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+.food-items-container{
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 auto;
+}
+.food-items-table{
+    background: #4d6d91;
+    text-align: center;
+    letter-spacing: 1px;
+    outline: none;
+    color: white;
+    line-height: 1.25;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: auto;
+}
+span.available{
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 60px;
+}
+.orderBtn{
+    width: 100%;
+    box-sizing: border-box;
+    background: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    outline: none;
+    transition: all 0.5s ease;
+}
+
+table tr{
+    border: 1px solid #ddd;
+    padding: .35em;
+}
